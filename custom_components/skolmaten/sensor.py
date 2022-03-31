@@ -6,7 +6,6 @@ import re
 from datetime import timedelta,datetime
 
 import homeassistant.helpers.config_validation as cv
-from skolmaten.sensor import CONF_SPLIT_ALTERNATIVE
 import voluptuous as vol
 from dateutil import parser
 from homeassistant.components.sensor import PLATFORM_SCHEMA, SensorEntity
@@ -23,8 +22,6 @@ import requests, json, sys
 __version__ = "1.0.0"
 
 COMPONENT_REPO = "https://github.com/EmilZackrisson/home-assistant-skolmaten"
-
-REQUIREMENTS = ["feedparser"]
 
 CONF_SCHOOL = "school"
 CONF_SPLIT_ALTERNATIVE = "split_alternative_course"
