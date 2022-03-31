@@ -1,0 +1,10 @@
+{
+    "domain": "skolmaten",
+    "name": "Skolmaten",
+    "documentation": "",
+    "dependencies": [],
+    "after_dependencies": ["http"],
+    "codeowners": ["@EmilZackrisson"],
+    "requirements": ["bs4"],
+    "version": "1.0.0"
+  }
